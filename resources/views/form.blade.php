@@ -14,13 +14,26 @@
             <input type="text" name="name" id="name" class="form-control" required="true">
         </div>
         <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" class="form-control" required="true">
+            <label for="last_name">Last name</label>
+            <input type="text" name="last_name" id="last_name" class="form-control" required="true">
         </div>
         <div class="form-group">
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" class="form-control" required="true">
         </div>
+        <div class="form-group">
+            <label for="position">Position</label>
+            <input type="text" name="position" id="position" class="form-control" required="true">
+        </div>
+        <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" class="form-control" required="true">
+        </div>
+        <div class="form-group">
+            <label for="workData">workData</label>
+            <textarea name="workData" class="form-control" required="true"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </body>
 </html>
