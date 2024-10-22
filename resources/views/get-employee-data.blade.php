@@ -9,6 +9,7 @@
 <body>
     <form id="employee-form" class="employee-form" method="post" action="{{ url('store-form')}}">
         @csrf
+
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" class="form-control" required="true">
@@ -32,6 +33,10 @@
         <div class="form-group">
             <label for="workData">workData</label>
             <textarea name="workData" class="form-control" required="true"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="jsonData">JSON</label>
+            <textarea name="jsonData" class="form-control" required="true"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
